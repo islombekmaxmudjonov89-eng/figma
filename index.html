@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Петербургский теннисный клуб имени М.А. Пасечникова</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="nav-bar">
+                <div class="logo">
+                    <img src="../figma/assets/Logo.svg" alt="Logo">
+                </div>
+                
+                <nav class="menu">
+                    <a href="#">Главная</a>
+                    <a href="#">О клубе</a>
+                    <a href="#">Турниры</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Детский теннис</a>
+                    <a href="#">Галерея</a>
+                    <a href="#">Цены</a>
+                    <a href="#">Контакты</a>
+                </nav>
+
+                <div class="header-right">
+                    <div class="live-clock" id="liveClock">00:00:00</div>
+                    
+                    <button class="theme-toggle" id="themeToggle" title="Тема">
+                        <i class="fa-solid fa-sun" id="themeIcon"></i>
+                    </button>
+
+                    <div class="social-icons">
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Петербургский теннисный клуб<br>имени М.А. Пасечникова</h2>
+                    <div class="video-btn-container">
+                        <a href="#" class="play-btn">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <span>Посмотрите видео<br>о нашем клубе</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="cards-section">
+        <div class="container">
+            <div class="cards-grid">
+                <div class="card">
+                    <span class="card-category">Услуги</span>
+                    <h3>Аренда корта</h3>
+                    <i class="fa-solid fa-arrow-up-right-from-square card-icon"></i>
+                </div>
+                <div class="card">
+                    <span class="card-category">Услуги</span>
+                    <h3>Детский теннис</h3>
+                    <i class="fa-solid fa-arrow-up-right-from-square card-icon"></i>
+                </div>
+                <div class="card">
+                    <span class="card-category">Услуги</span>
+                    <h3>Сборы команд</h3>
+                    <i class="fa-solid fa-arrow-up-right-from-square card-icon"></i>
+                </div>
+                <div class="card">
+                    <span class="card-category">Турниры</span>
+                    <h3>Расписание</h3>
+                    <i class="fa-solid fa-arrow-up-right-from-square card-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-cards-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-card" style="background-image: url('../figma/assets/Rectangle\ 39.svg');">
+                    <h3>5 летних грунтовых кортов</h3>
+                </div>
+                <div class="gallery-card" style="background-image: url('../figma/assets/Rectangle\ 41.svg');">
+                    <h3>Зал с покрытием “Искусственная трава”</h3>
+                </div>
+                <div class="gallery-card" style="background-image: url('../figma/assets/Rectangle\ 43.svg');">
+                    <h3>Зал с покрытием “Хард”</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image-box">
+                    <img src="../figma/assets/Rectangle 45.svg" alt="Спортивный клуб">
+                </div>
+                <div class="about-content-box">
+                    <h2>Спортивный клуб</h2>
+                    <p>Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit turpis. Ultricies erat pretium risus quam tincidunt non viverra porttitor. Sollicitudin enim nunc in nisi donec vel. Blandit mauris vitae amet aliquet ultrices mauris pellentesque. Non ipsum commodo, sit mi sit netus aenean nisl. [Donec sit pellentesque enim, vestibulum.</p>
+                    <p>Condimentum hac adipiscing purus in augue nisi. Convallis ut nisi.</p>
+                    
+                    <h3>Ornare orci ut dictum nulla fames.</h3>
+                    <ul>
+                        <li>Euismod diam, vel venenatis bibendum sodales sem hendrerit vulputate sagittis.</li>
+                        <li>Nisl senectus sed malesuada donec. Interdum malesuada bibendum imperdiet elementum auctor vitae in.</li>
+                        <li>Quam purus ornare dictum pharetra. Sed viverra tellus sollicitudin urna, sagittis.</li>
+                        <li>Scelerisque urna senectus commodo, nam. Donec nibh tempus imperdiet nisi, tincidunt mus egestas nisl nullam.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trainers-section">
+        <div class="container">
+            <div class="section-header-flex">
+                <h2>Тренерский состав</h2>
+                <div class="slider-arrows">
+                    <button><i class="fa-solid fa-arrow-left"></i></button>
+                    <button><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-img"><img src="../figma/assets/img1.svg" alt=""></div>
+                    <h3>Pulvinar aliquam</h3>
+                    <p>Arcu elit massa amet turpis vel consequat pellentesque sit.</p>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img"><img src="../figma/assets/img2.svg" alt=""></div>
+                    <h3>Pretium odio</h3>
+                    <p>Bibendum aliquam volutpat nisl a duis in nisl. In sed commodo lorem morbi quis.</p>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img"><img src="../figma/assets/img3.svg" alt=""></div>
+                    <h3>Aliquet consectetur</h3>
+                    <p>Id sapien sed nibh fermentum massa posuere ipsum. Diam in.</p>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img"><img src="../figma/assets/img4.svg" alt=""></div>
+                    <h3>Blandit augue</h3>
+                    <p>Scelerisque accumsan pretium justo, vitae elit. Dolor semper morbi sit auctor vel diam eros.</p>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img"><img src="../figma/assets/img5.svg" alt=""></div>
+                    <h3>Lorem lacus</h3>
+                    <p>Adipiscing amet, viverra dignissim egestas. Sed nibh egestas venenatis faucibus.</p>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img"><img src="../figma/assets/img6.svg" alt=""></div>
+                    <h3>Sed erat</h3>
+                    <p>Quis ullamcorper pretium lacus risus tellus dolor etiam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-services-section">
+        <div class="container">
+            <div class="pricing-services-grid">
+                <!-- Chap qism: Narxlar -->
+                <div class="pricing-col">
+                    <h2>Цены и абонементы</h2>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>Зимний сезон 2021-2022</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="price-item">
+                            <span>Абонементы</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="price-item">
+                            <span>Скидки</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="price-item">
+                            <span>Дополнительные услуги</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-col">
+                    <div class="section-header-flex">
+                        <h2>Услуги</h2>
+                        <div class="slider-arrows">
+                            <button><i class="fa-solid fa-arrow-left"></i></button>
+                            <button><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="cafe-card" style="background-image: url('../figma/assets/img7.svg');">
+                        <h3>Уютное кафе</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>2022 © Все права защищены.</p>
+                <div class="footer-menu">
+                    <a href="#">Главная</a>
+                    <a href="#">О клубе</a>
+                    <a href="#">Турниры</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Детский теннис</a>
+                    <a href="#">Галерея</a>
+                    <a href="#">Цены</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-vk"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
